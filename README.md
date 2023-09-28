@@ -1,1 +1,112 @@
 # GeetaBlog
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/util.css">
+    <title>MyBlog - Blogs on Shrimad BhagawatGita </title>
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto" >
+        <div class="nav-left">
+            <Span>GitaBlog</Span>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/Contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get"> 
+            <input  class="form-input" type ="text" Name="query" placeholder="Artical Search">
+            <button class="btn">Search</button>
+        </form>
+        </div>
+
+    </nav>
+    <div class="max-width-1 m-auto"> <hr></div>
+    <div class="content max-width-1 m-auto my-2">
+        <div class="content-left">
+            <h2>BhagawatGita Messages</h2>
+            <p>MyBlog is a website which lets you submit an article on Shrimad BhagawatGita 
+                which upon approval will be up on our website and you can get a good amount of reach from here!</p>
+                <p><b>Bhagavad Gita</b> was told by Lord <b>Krishna</b> to <b>Arjuna</b> as an advise of what’s right and wrong when Arjuna was hesitant to go to war against his own cousins, the Kauravas. 
+                    <br>The events that led to this war are described in the Mahabharata,
+                     a 200 thousand verses long epic by sage Vyasa. <b>Bhagavad Gita</b> is a 700 verse epic divided into 18 chapters.
+                   <b>Bhagavad Gita</b> talks about various paths to spirituality such as the right action <b>(Karma Yoga), devotion (Bhakti Yoga), and knowledge (Jnana Yoga).
+                </b>
+                
+                    </p>
+        </div>
+        <div class="content-right">
+            <img src="img/Krish.jpg.jpg" alt="GitaBlog">
+        </div>
+
+    </div>
+    <div class="max-width-1 m-auto"> <hr></div>
+        <div class="home-articales max-width-1 m-auto">
+            <h2>Bhagavad Gita quotes</h2>
+            <div class="home-artical">
+                <img src="img/mykanha.jpg" alt="article">
+                <div class="home-article-content font1">
+                    <a href="/blogpost.html"><h3> Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </h3></a>
+                    
+                    <span>Author Name</span>
+                    <span> 19 september | 2 min read</span>
+                </div>
+    
+            </div>
+            <div class="home-artical">
+                <img src="img/shri-krishna.jpg" alt="article">
+                <div class="home-article-content font1">
+                    <a href="/blogpost.html"><h3> Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </h3></a>
+                    <span>Author Name</span>
+                    <span> 19 september | 2 min read</span>
+                </div>
+    
+            </div>
+            <div class="home-artical">
+                <img src="img/Lord-Krishna-1.jpg" alt="article">
+                <div class="home-article-content font1">
+                    <a href="/blogpost.html"><h3> Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </h3></a>
+                    <span>Author Name</span>
+                    <span> 19 september | 2 min read</span>
+                </div>
+    
+            </div>
+            <div class="home-artical">
+                <img src="img/manjkanha.jpg" alt="article">
+                <div class="home-article-content font1">
+                    <a href="/blogpost.html"><h3> Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </h3></a>
+                    <span>Author Name</span>
+                    <span> 19 september | 2 min read</span>
+                </div>
+    
+            </div>
+            <div class="home-artical">
+                <img src="img/God.jpg" alt="article">
+                <div class="home-article-content font1">
+                    <a href="/blogpost.html"><h3> Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </h3></a>
+                    <span>Author Name</span>
+                    <span> 19 september | 2 min read</span>
+                </div>
+    
+            </div>
+        </div>
+
+    <div class="footer">
+        <p>Copyright &copy; GitaBlog.com</p>
+         <a href="https://www.vecteezy.com/free-vector/bansuri"> Vector Credits: vecteezy</a>
+
+    </div>
+   
+    
+</body>
+</html>
